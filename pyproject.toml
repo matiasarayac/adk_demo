@@ -1,0 +1,22 @@
+[project]
+name = "adk-demo"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Matias Araya",email = "matiasaraya@google.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "google-adk (>=0.5.0,<0.6.0)",
+    "google-cloud-aiplatform[adk,agent-engines] (>=1.93.0,<2.0.0)",
+    "absl-py (>=2.2.2,<3.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "adk_demo", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
