@@ -25,18 +25,18 @@ git clone <your-repository-url>
 cd <your-project-directory>
 ```
 
-### 2. Install Dependencies with Poetry:
+### 3. Install Dependencies with Poetry:
 
 ```bash
 poetry install
 ```
 
-### 3. Activate the Poetry Shell:
+### 4. Activate the Poetry Shell:
 ```bash
 poetry env activate
 ```
 
-### 4. Set up Environment Variables: Rename the file ".env-example" to ".env" Fill the below values:
+### 5. Set up Environment Variables: Rename the file ".env-example" to ".env" Fill the below values:
 Copy the example environment file:
 ```bash
 cp .env.example .env
