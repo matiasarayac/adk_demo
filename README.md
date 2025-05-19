@@ -36,7 +36,7 @@ poetry install
 poetry env activate
 ```
 
-### 5. Set up Environment Variables: Rename the file ".env-example" to ".env" Fill the below values:
+### 5. Set up Environment Variables:
 Copy the example environment file:
 ```bash
 cp .env.example .env
