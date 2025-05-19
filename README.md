@@ -4,7 +4,6 @@ This project demonstrates how to create a simple agent using the Agent Developme
 
 ## Table of Contents
 
-- [Description](#description)
 - [Project Setup](#project-setup)
 - [Running the agent](#running-the-agent)
 - [Deployment on Vertex AI Agent Engine](#deployment-on-vertex-ai-agent-engine)
